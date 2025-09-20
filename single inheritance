@@ -12,3 +12,5 @@ class childemployee(employee1):
         self.id = id
     emp1 = employee1('lakshman',22,1000)
     print(emp1.age)
+    print(emp1.name)
+    print(emp1.salary)
