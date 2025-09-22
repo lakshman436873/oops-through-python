@@ -18,9 +18,9 @@ class childemployee2(childemployee1):
 emp1 = employee('lakshman',22,1000)
 emp2 = childemployee1('ramu',23,2000)
 
-print(emp1.age)
-print(emp2.age)
 print(emp1.name)
-print(emp2.name)
+print(emp1.age)
 print(emp1.salary)
+print(emp2.name)
+print(emp2.age)
 print(emp2.salary)
