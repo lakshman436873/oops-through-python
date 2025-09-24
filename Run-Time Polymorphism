@@ -1,0 +1,19 @@
+class engineer():
+    def __init__(self, name, age, id, salary):
+        self.name = name
+        self.age = age
+        self.salary = salary
+        self.id = id
+    def earn(self):
+        pass
+class childengineer1(engineer):
+    def earn(self):
+        print("no money")
+class childengineer2(engineer):
+    def earn(self):
+        print("has money")
+
+c = childengineer1
+c.earn(engineer)
+d = childengineer2
+d.earn(engineer)
