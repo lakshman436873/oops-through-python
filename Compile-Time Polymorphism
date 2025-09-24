@@ -1,0 +1,26 @@
+class engineer1():
+    def name(self):
+        print("Lakshman is his name")
+    def salary(self):
+        print("30000 is his salary")
+    def age(self):
+        print("18 is his age")
+        
+class engineer2():
+    def name(self):
+        print("Ramu is his name")
+    def salary(self):
+        print("40000 is his salary")
+    def age(self):
+        print("19 is his age")
+        
+def func(obj):
+        obj.name()
+        obj.salary()
+        obj.age()
+        
+obj_eng1 = engineer1()
+obj_eng2 = engineer2()
+    
+func(obj_eng1)
+func(obj_eng2)
