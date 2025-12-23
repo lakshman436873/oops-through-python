@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center style="color:aliceblue; background-color:darkcyan">
+        <h1>Your Name</h1>
+        <p>Web Development Learner</p><br>
+        <b>
+            <row>Home</row>
+            <row>About</row>
+            <row>Skills</row>
+            <row>Education</row>
+            <row>contact</row>
+        </b>
+    </center>
+    <left>
+    <section style="color:black; background-color:aliceblue">
+        <h1><b>About Me</b></h1>
+        <p>Hello! I am Learning HTML and CSS to build simple and attractive static websites.</p>
+    </section>
+    </left>
+    <left1>
+    <section style="color:black; background-color:gray;">
+        <h1><b>Skills</b></h1>
+        <ul>
+            <li>HTML-Page structure</li>
+            <li>CSS-Styling and layouts</li>
+            <li>Basic Web Design</li>
+        </ul>
+    </section>    
+    </left1>
+    <left2> 
+    <section style="color:black; background-color:yellow"> 
+        <h1><b>Education</b></h1>
+        <table border="1px" cellspacing="0px">
+        <tr>
+            <b>
+                <th>Course</th>
+                <th>Institute</th>
+                <th>Year</th>
+            </b>
+        </tr>
+        <tr>
+            <td>Bachelor Degree</td>
+            <td>XYZ College</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>ABC College</td>
+            <td>2020</td>
+        </tr>
+        </table>
+    </section>
+    </left2>
+    <left3>
+    <section style="color:black; background-color:pink;">
+        <h1><b>Contact Me</b></h1>
+        Name:<br>
+        <input type="text" placeholder="Enter Your Name"><br><br>
+        E-mail:<br>
+        <input type="email" placeholder="Enter Your E-mail"><br><br>
+        Message:<br>
+        <textarea rows="3" cols="30"></textarea><br><br>
+        <p>
+            upload file <button>coose file</button>No file choosen
+        </p>
+        <button>send</button><br>
+    </section>
+    </left3>
+    <center style="color:aliceblue; background-color: darkgreen;">
+        <row>
+            <input type="radio" placeholder="c">
+            2025 Your Name | Static Portfolio Website
+        </row>
+    </center>
+</body>
+</html>
