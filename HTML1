@@ -1,48 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Static Website</title>
+
+    <!-- CSS PART -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: darkcyan;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        nav a {
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 15px;
+        }
+        .skills { background-color: gray; }
+        .education { background-color: lightgreen; }
+        .contact { background-color: pink; }
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
 </head>
+
 <body>
-    <center style="color:aliceblue; background-color:darkcyan">
-        <h1>Your Name</h1>
-        <p>Web Development Learner</p><br>
-        <b>
-            <row>Home</row>
-            <row>About</row>
-            <row>Skills</row>
-            <row>Education</row>
-            <row>contact</row>
-        </b>
-    </center>
-    <left>
-    <section style="color:black; background-color:aliceblue">
-        <h1><b>About Me</b></h1>
-        <p>Hello! I am Learning HTML and CSS to build simple and attractive static websites.</p>
-    </section>
-    </left>
-    <left1>
-    <section style="color:black; background-color:gray;">
-        <h1><b>Skills</b></h1>
-        <ul>
-            <li>HTML-Page structure</li>
-            <li>CSS-Styling and layouts</li>
-            <li>Basic Web Design</li>
-        </ul>
-    </section>    
-    </left1>
-    <left2> 
-    <section style="color:black; background-color:yellow"> 
-        <h1><b>Education</b></h1>
-        <table border="1px" cellspacing="0px">
+
+<!-- HEADER -->
+<header>
+    <h1>Your Name</h1>
+    <p>Web Development Learner</p>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Education</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Me</h2>
+    <p>Hello! I am learning HTML and CSS to build simple and attractive static websites.</p>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML – Page Structure</li>
+        <li>CSS – Styling and Layout</li>
+        <li>Basic Web Design</li>
+    </ul>
+</section>
+
+<!-- EDUCATION -->
+<section class="education">
+    <h2>Education</h2>
+    <table>
         <tr>
-            <b>
-                <th>Course</th>
-                <th>Institute</th>
-                <th>Year</th>
-            </b>
+            <th>Course</th>
+            <th>Institute</th>
+            <th>Year</th>
         </tr>
         <tr>
             <td>Bachelor Degree</td>
@@ -54,29 +89,29 @@
             <td>ABC College</td>
             <td>2020</td>
         </tr>
-        </table>
-    </section>
-    </left2>
-    <left3>
-    <section style="color:black; background-color:pink;">
-        <h1><b>Contact Me</b></h1>
-        Name:<br>
-        <input type="text" placeholder="Enter Your Name"><br><br>
-        E-mail:<br>
-        <input type="email" placeholder="Enter Your E-mail"><br><br>
-        Message:<br>
-        <textarea rows="3" cols="30"></textarea><br><br>
-        <p>
-            upload file <button>coose file</button>No file choosen
-        </p>
-        <button>send</button><br>
-    </section>
-    </left3>
-    <center style="color:aliceblue; background-color: darkgreen;">
-        <row>
-            <input type="radio" placeholder="c">
-            2025 Your Name | Static Portfolio Website
-        </row>
-    </center>
+    </table>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+    <h2>Contact Me</h2>
+    Name:<br>
+    <input type="text" placeholder="Your Name"><br><br>
+
+    Email:<br>
+    <input type="email" placeholder="Your Email"><br><br>
+
+    Message:<br>
+    <textarea rows="3" cols="30"></textarea><br><br>
+
+    <input type="file"><br><br>
+    <button>Send</button>
+</section>
+
+<!-- FOOTER -->
+<footer style="background-color: darkgreen;">
+    &copy; 2025 Your Name | Static Portfolio Website
+</footer>
+
 </body>
 </html>
