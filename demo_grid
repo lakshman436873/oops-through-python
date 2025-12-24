@@ -6,13 +6,13 @@
             border:1px solid green;
             display:grid;
             width:auto;
-            grid-template-columns:10px 50px 120px;
-            grid-template-columns:1fr 1fr 1fr;
-            grid-template-rows:50px 100px;
-            grid-template-columns:minmax(auto,50%);
+            /* grid-template-columns:10px 50px 120px; */
+            /* grid-template-columns:1fr 1fr 1fr; */
+            /* grid-template-rows:50px 100px; */
+            /* grid-template-columns:minmax(auto,50%); */
             grid-template-columns:repeat(3,1fr);
-            grid-template-rows:minmax(100px,250px);
-            grid-template-rows:repeat(4,100px);
+            /* grid-template-rows:minmax(100px,250px); */
+            /* grid-template-rows:repeat(4,100px); */
         }
         #child{
             border:1px solid blueviolet;
