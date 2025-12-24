@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h2{
+            text-align: center;
+        }
+        body{
+            font-family:Arial,sans-serif;
+            margin:0;
+            padding:20px;
+            background-color: red;
+            color: black;
+        }
+        .container {
+            display:flex;
+            gap:20px;
+        }
+        .box{
+            flex:1;
+            padding:20px;
+            border:2px solid black;
+            background-color: blue;
+            text-align: center;
+            font-size: 20px;
+        }
+        /* Max-width:mobile */
+        /* @media(max-width:600px){
+            .container{
+                flex-direction: column;
+            }
+            .box{
+                background-color: lightgreen;
+            }
+        } */
+        /* Max-width for the tab */
+        /* @media(max-width:768px){
+            .box{
+                background-color: greenyellow;
+                font-size: 24px;
+            }
+        } */
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Responsive Web Design Concepts</h2>
+    <div class="container">
+        <div class="box">India</div>
+        <div class="box">America</div>
+        <div class="box">US</div>
+        <div class="box">UK</div>
+        <div class="box">Canada</div>
+        <div class="box">Pakistan</div>
+        <div class="box">Sri Lanka</div>
+    </div>
+</body>
+</html>
